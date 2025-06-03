@@ -33,6 +33,7 @@ body{
     box-shadow: 0 0 1rem rgba(0,  0, 0, 0.3);
     font-size: 8vmin;
     color: #b0413e;
+    background-color: #ffffc7;
 }
 
 #reset{
@@ -42,4 +43,31 @@ body{
     color: #fff;
     border-radius: 1rem;
     border: none;
+}
+
+#new{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+}
+
+#msg{
+    color: #f44088;
+    font-size: 5vmin;
+}
+
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.hide{
+    display: none;
 }
