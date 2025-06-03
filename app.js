@@ -4,6 +4,7 @@ let newBtn = document.querySelector("#new");
 let msgContainer = document.querySelector(".msg-container");
 let msg = document.querySelector("#msg")
 let count = 0;
+let img = document.querySelector("#img");
 
 //playerX, playerO
 let turnO = true;
@@ -24,6 +25,7 @@ const resetGame = () => {
     count = 0;
     enableBoxes();
     msgContainer.classList.add("hide");
+    img.classList.add("hideimg");
      
 };
 
@@ -70,6 +72,7 @@ const enableBoxes = () => {
 const showWinner = (winner) => {
     msg.innerHTML = `Congratulations, Winner is ${winner}`;
     msgContainer.classList.remove("hide");
+    img.classList.remove("hideimg");
     disableBoxes();
 }
 

@@ -71,3 +71,16 @@ body{
 .hide{
     display: none;
 }
+
+.hideimg{
+    display: none;
+}
+
+#img{
+    height: 60vmin;
+    width: 60vmin;
+    background-image: url(https://bluemoji.io/cdn-proxy/646218c67da47160c64a84d5/64fae09ea069231209494e10_90.png);
+    background-size: cover;
+    background-position: center;
+  background-repeat: no-repeat;
+}
